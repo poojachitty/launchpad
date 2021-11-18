@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title> Convertor </title>
+        <script>
+            var num=parseInt(prompt("enter the number"));
+        </script>
+        
+</head>
+<body>   
+        <form>
+            <input type="radio" name ="number" id="2" value="octal">octal
+            <input type="radio" name ="number" id="6" value="hexadecimal">hexadecimal
+            <input type="radio" name ="number" id="8" value="binary">binary<br>
+            
+            <input type="button"  onclick="Answer()"> Convert </button>     
+         
+        </form>
+            <script>
+                function Answer() {
+                    if (document.getElementById('2')) {
+                        document.write("binary number is"+ num.toString(2));
+                    }
+                    else if  (document.getElementById('6')) {
+                        document.write("hexa number is"+ num.toString(6));
+                    }
+                    else if  (document.getElementById('8')) {
+                        document.write("octal number is"+ num.toString(8));
+                    }
+                }
+                
+                </script></body>
+</html>

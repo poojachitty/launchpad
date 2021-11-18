@@ -1,0 +1,31 @@
+<html>
+<head>
+
+
+    <script>
+        
+    var emp= new Object();
+        emp.id=parseInt(prompt("enter yur id"));
+        emp.name=prompt("enter your name");
+        emp.dob=parseInt(prompt("dob"));
+        emp.mobileno=parseInt(prompt("enter mobileno"));
+        emp.address=prompt("enter address");
+        
+        
+        emp.course=prompt("enter course");
+       
+        document.write(emp.id+" "+emp.name+" "+emp.dob +" "+emp.mobileno +" "+emp.address +" "+emp.course+ " ");
+        var newadress=prompt("enter new address");
+        function changeadd(newadress){
+            emp.address=newadress;
+            
+        } 
+        changeadd();
+        document.write("<br>"+emp.id+" "+emp.name+" "+emp.dob +" "+emp.mobileno +" "+emp.address +" "+emp.course+ " ");
+        </script>
+
+
+</head>
+<body>
+</body>
+</html>

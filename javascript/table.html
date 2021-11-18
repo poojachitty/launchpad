@@ -1,0 +1,30 @@
+<html>
+    <head></head>
+    <body>
+       
+<table border="1"  id="tab">
+    <form> 
+        <input type="button" onclick="createTable()" value="Create the table"> 
+    </form>
+   
+</table>
+<script>
+    function createTable()
+{
+row = prompt("enter number of rows");
+col= prompt("enter number of columns");
+  
+ for(var r=0;r<row;r++)
+  {
+   var x=document.getElementById('tab').insertRow(r);
+   for(var c=0;c<col;c++)  
+    {
+     var y=  x.insertCell(c);
+     y.innerHTML="table"; 
+    }
+   }
+}
+</script>
+
+</body>
+</html>

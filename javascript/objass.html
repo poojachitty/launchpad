@@ -1,0 +1,26 @@
+<html>
+<head>
+
+
+    <script>
+    function emp(id,name,dob,mobileno,address,course){
+        this.id=id;
+        this.name=name;
+        this.dob=dob;
+        this.mobileno=mobileno;
+        this.address=address;
+        this.changeadd=changeadd;
+        this.course=course;
+        function changeadd(other){
+        this.address=other; } }
+        e=new emp(103,"poo","28.12.1998",123456789,"electronic_city","cse");
+        document.write(e.id+" "+e.name+" "+e.dob +" "+e.mobileno +" "+e.address +" "+e.course+ " ");
+        e.changeadd("btm");
+        document.write("<br>"+e.id+" "+e.name+" "+e.dob +" "+e.mobileno +" "+e.address +" "+e.course+ " ")
+        </script>
+
+
+</head>
+<body>
+</body>
+</html>

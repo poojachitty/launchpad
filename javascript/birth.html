@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>
+            date
+        </title>
+    </head>
+    <body>
+        <script>
+            var d= new Date(prompt("enter the usser dob"));
+            var day= new Array(7);
+            day[0]="sunday";
+            day[1]="monday";
+            day[2]="tuesday";
+            day[3]="wednesday";
+            day[4]="thursday";
+            day[5]="friday";
+            day[6]="saturday";
+           document.write("day of user's birth is"+" "+day[d.getDay()]);
+        </script>
+    </body>
+</html>
