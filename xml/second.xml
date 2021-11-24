@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<book>
+<title>My First XML</title>
+<prod id="33657" media="paper"></prod>
+<chapter>Introduction to XML
+<para>What is HTML</para>
+<para>What is XML</para>
+</chapter>
+<chapter>XML Syntax
+<para>Closing tag</para>
+<para>properly nested</para>
+</chapter>
+</book>

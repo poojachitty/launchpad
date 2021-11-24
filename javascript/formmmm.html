@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>Form Validation</title>
+<script type="text/javascript">
+function validate(){
+if( document.myForm.Name.value == "" ){
+alert( "Please provide your name!" );
+document.myForm.Name.focus() ;
+return false; } 
+}
+
+</script> </head>
+<body>
+<form action="" name="myForm" onsubmit="return(validate());">
+<table cellspacing="2" cellpadding="2" border="1">
+<tr>
+<td align="right">Name</td>
+<td><input type="text" name="Name" /></td>
+</tr>
+<tr>
+    <td align="right">employee_id</td>
+    <td><input type="text" name="id" /></td>
+    </tr>
+
+<tr>
+    <td align="right">Number</td>
+    <td><input type="tel" name="Number" pattern="^\d{10}"  /></td>
+    </tr>
+    <tr>
+        <td align="right">date of birth</td>
+        <td><input type="date" name="dob" /></td>
+        </tr>
+    <tr>
+        <td align="right">address</td>
+        <td><input type="text" name="address" /></td>
+        </tr>
+        <tr>
+            <td align="right">email</td>
+            <td><input type="email" name="email" required/></td>
+            </tr>
+        <tr>
+            <td align="right">course</td>
+            <td><select multiple>
+                <optgroup label="B.E/B.Tech" >
+                    <option value="COMPUTER SCIENCE" >Computer Science</option>
+                    <option value="ELECTRICAL" >Mechanical</option>
+                    <option value="MECHANICAL">Electrical</option>
+                    </optgroup>
+                        <optgroup label="MSC" >
+                        <option value="CSE" >Computer Science</option>
+                        <option value="ECE" >Mechanical</option>
+                        <option value="ME">Electrical</option>
+                        </optgroup>
+                        <optgroup label="BCOM" >
+                            <option value="ACCOUNT" >Account</option>
+                            <option value="FINANCE" >Finance</option>
+                            <option value="LITERATURE">Literature</option>
+                            </optgroup>
+            </select></td>
+        </tr>
+</table>
+<input type=submit value="Submit form" >
+</form> </body> </html>

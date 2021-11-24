@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>apple</title>
+        <link rel="stylesheet" type="text/css" href ="web.css">
+        <script>
+            function Calculate() {
+                var apple = parseInt(prompt("Enter the Quantity of Apple to purchase :"));
+                var mango = parseInt(prompt("Enter the Quantity of Mango to purchase :"));
+                var orange = parseInt(prompt("Enter the Quantity of Orange to purchase :"));
+                var app = apple * 100;
+                var man = mango * 220;
+                var oran = orange * 80;
+                var result = app + man + oran;
+                alert("Your total Bill is amount : Rs." + result);
+            }
+        </script>
+    </head>
+    <body>
+        <h1>APPLE</h1>
+        <p id="red">price is Rs.100<br> quantity is 1000kg </p>
+        <h1>ORANGE</h1>
+        <p id="red">price is Rs.100<br> quantity is 1000kg </p>
+        <h1>MANGO</h1>
+        <p id="red">price is Rs.100<br> quantity is 1000kg </p>
+
+
+        <form onsubmit="Calculate()"  >
+        <button type="submit" >Purchase</button></td>
+        </form>
+    </body>
+</html>

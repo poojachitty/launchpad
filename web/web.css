@@ -1,0 +1,29 @@
+.header{
+    color:red;
+    text-align:center;
+    border: 2px solid yellowgreen;
+    background-color: rebeccapurple;
+}
+footer{
+    color:white;
+    text-align:center;
+    box-sizing: border-box;
+    height:70px;
+    
+    border:1px solid white;
+    background-color:black;
+}
+#red{
+    font-family:verdana;
+    color:black;
+    text-align:center;
+    font-size:20px;
+    background-color: skyblue;
+    
+    
+    
+    
+    
+    
+
+}
