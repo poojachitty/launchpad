@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href ="createtask.css">
+    </head>
+    
+
+<body class="body">
+    <header align="center">
+        <h1 center>Admin Portal</h1>
+    </header>
+    <a href="home.html">
+        <h3>Return back to home page</h3>
+        </a>
+    <form>
+        <table cellspacing="10" cellpadding="10" border="10"  style="background-color:wheat " align="center"   >
+               <tr>
+                <td align="center"><b>Task Name</b></td>
+                <td><input type="text" name="TaskName" style="font-size:10pt;width:300px"placeholder="Enter Task name"  required/></td>
+                </tr>
+                <tr>
+                <td align="center"><b>Task ID</b></td>
+                <td><input type="integer" name="TaskId" style="font-size:10pt;width:300px"  placeholder="Enter Task ID" required/></td>
+                </tr>
+                <tr class="desc">
+                <td align="center" ><b>Description</b></td>
+                <td><input type="text" name="Description" style="font-size:10pt;height:50px;width:300px" placeholder="Enter Description" required/></td>
+                </tr>
+                <tr >
+                <td align="center" ><b>Status</b></td>
+                <td>
+                    <select name="status">
+                  <option value=""></option>
+                    <option value="Close" style="width:300px">Close</option>
+                  <option value="Progress" style="width:300px">Progress</option>
+                    <option value="Cancelled" style="width:300px">Cancelled</option>
+                    <option value="OnHold" style="width:300px">On Hold</option>
+                     </select>
+                    </td>
+                </tr>
+                </tr>
+                <td align="center" ><b>Priority</b></td>
+                <td style="font-size: 15px";>
+                    
+                       <input type="radio" name="Task Priority"  >High
+                      <input type="radio" name="Task Priority" >Medium
+                     <input type="radio" name="Task Priority" >Low
+                      
+                </td>
+                </tr>
+                <tr>
+                    <td align="center" ><b>Notes</b></td>
+                     <td><input type="text" name="notes" style="font-size:10pt;width:300px" placeholder="Enter Notes"required /> </td>
+                      </tr>
+                      
+                     
+                      
+                     <tr>
+                    <td align="center" ><b>Owner ID</b></td>
+                     <td><input type="inteer" style="font-size:10pt;width:300px" placeholder="Enter Owner ID" required /></td>
+                    </tr>
+                    
+                      <tr>
+                       <td align="center" ><b>Creator ID</b></td>
+                     <td><input type="integer" style="font-size:10pt;width:300px" placeholder="Enter Creator ID" required/></td>
+                      </tr>
+                      
+                     <tr>
+                     <td align="center" ><b>Created On</b></td>
+                     <td><input type="date" style="font-size:10pt;width:300px" placeholder="Enter Created On"required/></td>
+                     </tr>
+                     
+                    <tr>
+                     <td align="center" ><b>Modified On</b></td>
+                      <td><input type="date" style="font-size:10pt;width:300px" placeholder="Enter Modified On" required/></td>
+                     </tr>
+
+                    
+                
+        </table>
+        
+            <div colspan="2" > 
+            <a href="home.html">
+             <input  style="margin-left:550px;margin-right:5px;margin-top:5px;width:100px;color:white;background-color: grey;font-size: large;font-style:bold;height:30px" type="button" value="MODIFY"  />
+            </a>
+            <a href="#">
+             <input style="margin-left:50px;margin-right:5px; margin-top:5px;width:100px;color:white;background-color: grey;font-size: large;height:30px" type="reset" value="RESET" />
+            </a> 
+            </div>
+            
+
+    </form>
+    <footer>
+        <p>Copyrights@2021|All rights reserved |</p>
+      </footer>
+</body>
+</html>
