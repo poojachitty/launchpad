@@ -1,0 +1,22 @@
+.body{
+    background-color: orchid;
+}
+footer{
+    color:white;
+    text-align:center;
+    box-sizing: border-box;
+    height:70px;
+    font-size: larger;
+    bottom:0;
+   
+    width:100%;
+    
+    border:1px solid white;
+    background-color:black;
+}
+header{
+    background-color: grey;
+    width:100%;
+    
+   
+}
