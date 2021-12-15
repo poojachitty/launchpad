@@ -1,0 +1,33 @@
+--left
+SELECT LEFT('POOJA',3); 
+
+--lengt
+select len('pooj')
+
+--LOWER
+
+SELECT LOWER('POOJA')
+
+--LTRIM
+SELECT LTRIM('           POOJA')
+
+--REPLACE
+SELECT REPLACE('POOJA','JA','OO')
+
+--REVERSE
+SELECT REVERSE('POOJA')
+
+--RIGHT
+SELECT RIGHT('POOJA',3)
+
+--RTRIM
+SELECT RTRIM('POOJA            ')
+
+--SUBSTRING
+SELECT SUBSTRING('POOJA',1,3)
+
+--TRIM
+SELECT TRIM('        POO       ')
+
+--UPPER
+SELECT UPPER('poo')
